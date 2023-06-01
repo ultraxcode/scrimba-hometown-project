@@ -1,0 +1,141 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+#cce3de
+
+*/
+
+body {
+    display:inline;
+    margin: 0;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3JTIwZGVsaGklMjBpbmRpYXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+    background-size: cover;
+}
+
+img {
+    width: 100px;
+}
+.top-intro{
+    display: flex;
+    flex-direction:column;
+    align-items: center
+    
+    
+}
+#head1{
+    color: white;
+    padding: 10px;
+    background-color: #1D3557;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-shadow: 0px 0px 4px black;
+    font-weight: bold;
+    }
+    
+#head2{
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    background-color:#A8DADC;
+    border-radius: 10px; 
+    text-shadow: 0px 0px 4px black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: px;
+}
+#h31{
+    padding:10px;
+    margin-top:15px;
+}
+#cp1{
+    border: 0px solid black;
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 40px;
+    height: 100px;
+}
+#rf1{
+    border: 0px solid black;
+    border-radius: 50%;
+    width: 170px;
+    margin-bottom: 40px;
+    height: 100px;
+    
+}
+#tm1{
+    border: 0px solid black;
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 40px;
+    height: 100px;
+    
+}
+.act-sec{
+    display: block;
+    background-color: #cce3de;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.act-img{
+    display: flex;
+    background-color: #cce3de;
+    justify-content: center;
+}
+#rf-ndls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    
+}
+#cp-ndls{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    
+}
+#tm-ndls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    
+}
+.guide{
+    display: block;
+    background: skyblue;
+    margin-top:0px;
+    
+}
+.guide{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #fef0ef;
+    color: #bd68ee;
+    border-bottom: 6px solid #d8cefe;
+    
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+#my-image {
+    width: 150px;
+}
+#card{
+    border-bottom: 5px solid blueviolet;
+    text-shadow: 0px 0px 30px red;
+}
+
